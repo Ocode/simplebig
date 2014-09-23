@@ -15,3 +15,12 @@
 	S.attach();
 	console.log("香港動漫".t2s());//香港动漫
 	console.log("夜莺工作室".s2t());//夜鶯工作室
+
+##使用
+
+浏览器里新增一个书签，书签网址处输入以下内容：
+
+    javascript:(function(){var a=document,b=a.body,c=a.createElement("script");c.setAttribute("src","http://ocode.github.io/simplebig/big5.js");a.querySelector("head").appendChild(c);})()
+
+
+此内容会在网页右上角增加一个按钮，作为简繁字体互转使用！
